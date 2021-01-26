@@ -4,11 +4,11 @@
 #include <ros.h>
 #include <std_msgs/Float64.h>
 
-int rw_A_pin = 0;
-int rw_B_pin = 1;
+int rw_A_pin = 2;
+int rw_B_pin = 3;
 
-int lw_A_pin = 2;
-int lw_B_pin = 3;
+int lw_A_pin = 0;
+int lw_B_pin = 1;
 
 ros::NodeHandle nh;
 
